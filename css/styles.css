@@ -118,7 +118,10 @@ a {
 }
 
 /* ============ Our Team Styles ============ */
-
+.our-team-list-img,
+.our-portfolio-list-img {
+  display: block;
+}
 /* ============ Our Portfolio ============ */
 .our-team-section {
   background-color: #f4f4fd;
