@@ -238,12 +238,14 @@ a {
 .our-portfolio-list-img {
   display: block;
 }
-/* ============ Our Portfolio ============ */
+
 .our-team-section {
   background-color: #f4f4fd;
   text-transform: capitalize;
   padding: 120px 0;
 }
+
+/* ============ Our Portfolio ============ */
 
 .section-title {
   font-size: 36px;
@@ -253,7 +255,14 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  padding-top: 120px;
 }
+
+.portfolio-list {
+  display: flex;
+  gap: 24px;
+}
+
 /* ============ Our Portfolio ============ */
 
 /* ============ Page Footer ============ */
