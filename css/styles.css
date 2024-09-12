@@ -134,15 +134,21 @@ a {
   text-align: center;
 }
 
-/* BUTTON */
+/*------------ BUTTON ------------*/
 
 .order-service-btn {
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  cursor: pointer;
+  display: block;
+  border: none;
 }
 
 .order-service-btn:hover,
@@ -156,6 +162,7 @@ a {
 /* ============ BENEFITS-STYLES ============ */
 
 .visually-hidden {
+  max-width: 496px;
   position: absolute;
   width: 1px;
   height: 1px;
