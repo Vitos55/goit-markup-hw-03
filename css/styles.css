@@ -163,6 +163,9 @@ a {
 
 /* ============ BENEFITS-STYLES ============ */
 
+.benefits-section {
+}
+
 .visually-hidden {
   max-width: 496px;
   position: absolute;
