@@ -250,7 +250,7 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
+
   padding-top: 120px;
 }
 
@@ -259,6 +259,7 @@ a {
   gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
+  padding-top: 120px;
 }
 
 /* ============ Our Portfolio ============ */
