@@ -197,8 +197,8 @@ a {
 }
 
 .benefits-list-title,
-.our-team-title,
-.our-portfolio-title {
+.team-title,
+.portfolio-title {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -209,7 +209,7 @@ a {
 }
 
 .benefits-list-text,
-.our-team-text {
+.team-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
@@ -218,12 +218,12 @@ a {
 /* ============ BENEFITS-STYLES ============ */
 
 /*============ Our Team Styles ============ */
-.our-team-list {
+.team-list {
   display: flex;
   gap: 24px;
 }
 
-.our-team-item {
+.team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -234,11 +234,12 @@ a {
 }
 
 /* ============ Our Team Styles ============ */
-.our-team-list-img,
-.our-portfolio-list-img {
+.team-list-img,
+.portfolio-list-img {
+  display: block;
 }
 
-.our-team-section {
+.team-section {
   background-color: #f4f4fd;
   text-transform: capitalize;
   padding: 120px 0;
