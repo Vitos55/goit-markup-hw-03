@@ -254,7 +254,7 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-
+  margin-bottom: 72px;
   padding-top: 120px;
 }
 
@@ -262,7 +262,6 @@ a {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  padding-top: 120px;
 }
 
 /* ============ Our Portfolio ============ */
