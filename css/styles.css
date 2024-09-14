@@ -270,7 +270,7 @@ a {
 
 /* ============ Page Footer ============ */
 
-.logo footer-logo {
+.logo footer-logo .logo-part {
   display: inline-block;
   margin-bottom: 16px;
 }
