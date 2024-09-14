@@ -236,7 +236,6 @@ a {
 /* ============ Our Team Styles ============ */
 .our-team-list-img,
 .our-portfolio-list-img {
-  display: block;
 }
 
 .our-team-section {
@@ -261,6 +260,7 @@ a {
 .portfolio-list {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 /* ============ Our Portfolio ============ */
