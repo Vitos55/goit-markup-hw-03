@@ -111,14 +111,14 @@ a {
   gap: 40px;
 }
 
-/*------------- header ------------*/
-
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
 }
+/*------------- header ------------*/
+
 /* ============ COMMON STYLES ============ */
 
 /* ============ MAIN-HERO-STYLES ============ */
@@ -272,6 +272,7 @@ a {
 
 .logo footer-logo {
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .text-footer {
