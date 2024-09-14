@@ -269,12 +269,19 @@ a {
 /* ============ Our Portfolio ============ */
 
 /* ============ Page Footer ============ */
+
+.logo footer-logo {
+  display: inline-block;
+}
+
 .text-footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 /* ============ Page Footer ============ */
