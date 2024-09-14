@@ -243,6 +243,11 @@ a {
 
 /* ============ Our Portfolio ============ */
 
+.portfolio-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -287,4 +292,3 @@ a {
   max-width: 264px;
 }
 /* ============ Page Footer ============ */
-/* hjgkegfhlhslg */
