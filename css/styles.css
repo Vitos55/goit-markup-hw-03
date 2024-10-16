@@ -35,6 +35,21 @@ a {
   margin: 0 auto;
 }
 
+/*------------- header ------------*/
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -54,20 +69,38 @@ a {
   color: #2e2f42;
 }
 
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .nav-link {
-  padding: 24px 0;
   display: block;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
 .contacts {
   font-style: normal;
   margin-left: auto;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .contacts-link {
@@ -79,45 +112,9 @@ a {
   color: #434455;
 }
 
-.contacts-list {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-/*------------- common ------------*/
-
-/*------------- header ------------*/
-.page-header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
-}
-
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-
-.nav-list {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.nav-link:hover,
-.nav-link:focus,
-.contacts-link:hover,
-.contacts-link:focus {
-  color: #404bbf;
-}
 /*------------- header ------------*/
 
-/* ============ COMMON STYLES ============ */
-
-/* ============ MAIN-HERO-STYLES ============ */
+/* ============ HERO-STYLES ============ */
 .hero-section {
   padding: 188px 0;
   background-color: #2e2f42;
@@ -177,6 +174,22 @@ a {
   width: 264px;
 }
 
+.benefits-list-title,
+.portfolio-title {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.benefits-list-text,
+.portfolio-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .visually-hidden {
   max-width: 496px;
   position: absolute;
@@ -192,28 +205,25 @@ a {
   overflow: hidden;
 }
 
-.benefits-list-title,
-.team-title,
-.portfolio-title {
-  margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-align: center;
-}
-
-.benefits-list-text,
-.team-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-
 /* ============ BENEFITS-STYLES ============ */
 
 /*============ Our Team Styles ============ */
+.team-section {
+  background-color: #f4f4fd;
+  text-transform: capitalize;
+  padding: 120px 0;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -225,38 +235,37 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-wrapper {
-  padding: 32px 0;
-}
-
-/* ============ Our Team Styles ============ */
 .team-list-img,
 .portfolio-list-img {
   display: block;
 }
 
-.team-section {
-  background-color: #f4f4fd;
-  text-transform: capitalize;
-  padding: 120px 0;
+.team-wrapper {
+  padding: 32px 0;
 }
 
+.team-title {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+}
+
+.team-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* ============ Our Team Styles ============ */
 /* ============ Our Portfolio ============ */
 
 .portfolio-section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 72px;
-  padding-top: 120px;
 }
 
 .portfolio-list {
@@ -274,15 +283,27 @@ a {
 /* ============ Our Portfolio ============ */
 
 /* ============ Page Footer ============ */
-
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
 }
 
-.logo {
+.logo-footer {
+  margin-right: 120px;
+  max-width: 264px;
+}
+
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.logo-part {
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .text-footer {
@@ -291,4 +312,5 @@ a {
   color: #f4f4fd;
   max-width: 264px;
 }
+
 /* ============ Page Footer ============ */
